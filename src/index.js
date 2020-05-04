@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Amplify from "aws-amplify";
-import { AmazonAIPredictionsProvider } from "@aws-amplify/predictions";
+import Amplify, {Analytics} from "aws-amplify";
+import {AmazonAIPredictionsProvider} from "@aws-amplify/predictions";
 
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
@@ -11,8 +11,6 @@ import amplifyConfig from "./aws-exports";
 
 Amplify.configure(amplifyConfig);
 Amplify.addPluggable(new AmazonAIPredictionsProvider());
-
-import Amplify, { Analytics } from 'aws-amplify';
 
 Analytics.record({ name: 'albumVisit' });
 
