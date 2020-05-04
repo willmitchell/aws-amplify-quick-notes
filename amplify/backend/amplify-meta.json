@@ -21,7 +21,7 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/amplify-quick-notes-devj-195844-deployment/amplify-cfn-templates/auth/quicknotes9506fafe-cloudformation-template.yml",
 				"logicalId": "authquicknotes9506fafe"
 			},
-			"lastPushTimeStamp": "2020-05-04T20:03:48.964Z",
+			"lastPushTimeStamp": "2020-05-04T20:58:10.076Z",
 			"output": {
 				"AppClientSecret": "1n18hq813b528dmolshlbd0ucuf9su7ich8pbreq7eb5qn18esd5",
 				"UserPoolId": "us-east-1_gEHizsIqJ",
@@ -31,7 +31,7 @@
 				"IdentityPoolName": "quicknotes9506fafe_identitypool_9506fafe__devj",
 				"UserPoolName": "quicknotes9506fafe_userpool_9506fafe"
 			},
-			"lastPushDirHash": "KM2K47b6q5rLfvtC6co3LiKElGA="
+			"lastPushDirHash": "B+Bc8HCzKDIzpNeUjQT91CBhpKs="
 		}
 	},
 	"api": {
@@ -47,7 +47,7 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/amplify-quick-notes-devj-195844-deployment/amplify-cfn-templates/api/cloudformation-template.json",
 				"logicalId": "apiquicknotes"
 			},
-			"lastPushTimeStamp": "2020-05-04T20:03:48.964Z",
+			"lastPushTimeStamp": "2020-05-04T20:58:10.067Z",
 			"lastPushDirHash": "So73yK9DCdEuQatiaSaQ4daGTIg="
 		}
 	},
@@ -60,7 +60,7 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/amplify-quick-notes-devj-195844-deployment/amplify-cfn-templates/predictions/transcriptione65259cc-template.json",
 				"logicalId": "predictionstranscriptione65259cc"
 			},
-			"lastPushTimeStamp": "2020-05-04T20:03:48.964Z",
+			"lastPushTimeStamp": "2020-05-04T20:58:10.069Z",
 			"output": {
 				"language": "en-US",
 				"region": "us-east-1"
@@ -75,7 +75,7 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/amplify-quick-notes-devj-195844-deployment/amplify-cfn-templates/predictions/speechGeneratorc72b6c38-template.json",
 				"logicalId": "predictionsspeechGeneratorc72b6c38"
 			},
-			"lastPushTimeStamp": "2020-05-04T20:03:48.964Z",
+			"lastPushTimeStamp": "2020-05-04T20:58:10.071Z",
 			"output": {
 				"voice": "Kendra",
 				"language": "en-US",
@@ -87,7 +87,18 @@
 	"analytics": {
 		"quicknotes": {
 			"service": "Pinpoint",
-			"providerPlugin": "awscloudformation"
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-quick-notes-devj-195844-deployment/amplify-cfn-templates/analytics/pinpoint-cloudformation-template.json",
+				"logicalId": "analyticsquicknotes"
+			},
+			"lastPushTimeStamp": "2020-05-04T20:58:10.076Z",
+			"output": {
+				"appName": "quicknotes-devj",
+				"Region": "us-east-1",
+				"Id": "90010481d3264ceba2995e6a0f0f9f7e"
+			},
+			"lastPushDirHash": "mWY4gqpGb/auRMouDQ06DQJ+4jc="
 		}
 	}
 }

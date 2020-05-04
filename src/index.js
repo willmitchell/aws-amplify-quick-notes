@@ -12,6 +12,10 @@ import amplifyConfig from "./aws-exports";
 Amplify.configure(amplifyConfig);
 Amplify.addPluggable(new AmazonAIPredictionsProvider());
 
+import Amplify, { Analytics } from 'aws-amplify';
+
+Analytics.record({ name: 'albumVisit' });
+
 ReactDOM.render(<App />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change
