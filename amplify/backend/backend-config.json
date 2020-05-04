@@ -26,5 +26,11 @@
 			"service": "Polly",
 			"convertType": "speechGenerator"
 		}
+	},
+	"analytics": {
+		"quicknotes": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation"
+		}
 	}
 }

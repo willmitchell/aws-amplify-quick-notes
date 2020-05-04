@@ -83,5 +83,11 @@
 			},
 			"lastPushDirHash": "Sx4VbAcgSXyyQY2H+MQ2pOUFxBY="
 		}
+	},
+	"analytics": {
+		"quicknotes": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation"
+		}
 	}
 }
