@@ -1,14 +1,15 @@
 {
 	"providers": {
 		"awscloudformation": {
-			"AuthRoleName": "quick-notes-dev-20190826145900-authRole",
-			"UnauthRoleArn": "arn:aws:iam::781155362072:role/quick-notes-dev-20190826145900-unauthRole",
-			"AuthRoleArn": "arn:aws:iam::781155362072:role/quick-notes-dev-20190826145900-authRole",
+			"AuthRoleName": "amplify-quick-notes-devj-195844-authRole",
+			"UnauthRoleArn": "arn:aws:iam::496004710617:role/amplify-quick-notes-devj-195844-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::496004710617:role/amplify-quick-notes-devj-195844-authRole",
 			"Region": "us-east-1",
-			"DeploymentBucketName": "quick-notes-dev-20190826145900-deployment",
-			"UnauthRoleName": "quick-notes-dev-20190826145900-unauthRole",
-			"StackName": "quick-notes-dev-20190826145900",
-			"StackId": "arn:aws:cloudformation:us-east-1:781155362072:stack/quick-notes-dev-20190826145900/90da8c80-c833-11e9-b472-1270c4b0e9f2"
+			"DeploymentBucketName": "amplify-quick-notes-devj-195844-deployment",
+			"UnauthRoleName": "amplify-quick-notes-devj-195844-unauthRole",
+			"StackName": "amplify-quick-notes-devj-195844",
+			"StackId": "arn:aws:cloudformation:us-east-1:496004710617:stack/amplify-quick-notes-devj-195844/a9aa7340-8e41-11ea-a0f5-0ab7c9206afb",
+			"AmplifyAppId": "ddk10nx7fpmh1"
 		}
 	},
 	"auth": {
@@ -17,20 +18,20 @@
 			"providerPlugin": "awscloudformation",
 			"dependsOn": [],
 			"providerMetadata": {
-				"s3TemplateURL": "https://s3.amazonaws.com/quick-notes-dev-20190826145900-deployment/amplify-cfn-templates/auth/quicknotes9506fafe-cloudformation-template.yml",
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-quick-notes-devj-195844-deployment/amplify-cfn-templates/auth/quicknotes9506fafe-cloudformation-template.yml",
 				"logicalId": "authquicknotes9506fafe"
 			},
-			"lastPushTimeStamp": "2019-08-26T21:18:58.110Z",
+			"lastPushTimeStamp": "2020-05-04T20:03:48.964Z",
 			"output": {
-				"AppClientSecret": "ugrpu426hfvke3p5dchk696i7sfp0mro3ragd12mfgs3t24jfed",
-				"UserPoolId": "us-east-1_ZuZiMUD40",
-				"AppClientIDWeb": "1fkag5kje3n9r6q7q8s84eft4q",
-				"AppClientID": "60g6ncl0tcddi0hq53tpg161d8",
-				"IdentityPoolId": "us-east-1:94b99aeb-7d34-4ac7-b38f-8e82b8c2d1dc",
-				"IdentityPoolName": "quicknotes9506fafe_identitypool_9506fafe__dev",
+				"AppClientSecret": "1n18hq813b528dmolshlbd0ucuf9su7ich8pbreq7eb5qn18esd5",
+				"UserPoolId": "us-east-1_gEHizsIqJ",
+				"AppClientIDWeb": "6vh60l53h5odmth23cvhujhm8t",
+				"AppClientID": "356u6s7iii5iet0064pqi3e0p",
+				"IdentityPoolId": "us-east-1:83a899d1-ed2c-47cb-b195-d155edbc83ea",
+				"IdentityPoolName": "quicknotes9506fafe_identitypool_9506fafe__devj",
 				"UserPoolName": "quicknotes9506fafe_userpool_9506fafe"
 			},
-			"lastPushDirHash": "reSRvwFnPwcP5s2OgU6qqyOD/cA="
+			"lastPushDirHash": "KM2K47b6q5rLfvtC6co3LiKElGA="
 		}
 	},
 	"api": {
@@ -39,15 +40,15 @@
 			"providerPlugin": "awscloudformation",
 			"output": {
 				"securityType": "AMAZON_COGNITO_USER_POOLS",
-				"GraphQLAPIIdOutput": "fsgw5f46inehpeyukx25tyeioq",
-				"GraphQLAPIEndpointOutput": "https://mnfvrymm4jfypo3v5mgekvuzse.appsync-api.us-east-1.amazonaws.com/graphql"
+				"GraphQLAPIIdOutput": "n2gvfi2tyjhaxg3e6p2amigcam",
+				"GraphQLAPIEndpointOutput": "https://p3nuwfnom5cunbr4qz5gofgdwi.appsync-api.us-east-1.amazonaws.com/graphql"
 			},
 			"providerMetadata": {
-				"s3TemplateURL": "https://s3.amazonaws.com/quick-notes-dev-20190826145900-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-quick-notes-devj-195844-deployment/amplify-cfn-templates/api/cloudformation-template.json",
 				"logicalId": "apiquicknotes"
 			},
-			"lastPushTimeStamp": "2019-08-26T21:18:59.234Z",
-			"lastPushDirHash": "huk8fMcNNuW4ph/mF9JKL1HSEUU="
+			"lastPushTimeStamp": "2020-05-04T20:03:48.964Z",
+			"lastPushDirHash": "So73yK9DCdEuQatiaSaQ4daGTIg="
 		}
 	},
 	"predictions": {
@@ -56,10 +57,10 @@
 			"service": "Transcribe",
 			"convertType": "transcription",
 			"providerMetadata": {
-				"s3TemplateURL": "https://s3.amazonaws.com/quick-notes-dev-20190826145900-deployment/amplify-cfn-templates/predictions/transcriptione65259cc-template.json",
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-quick-notes-devj-195844-deployment/amplify-cfn-templates/predictions/transcriptione65259cc-template.json",
 				"logicalId": "predictionstranscriptione65259cc"
 			},
-			"lastPushTimeStamp": "2019-08-26T21:18:58.112Z",
+			"lastPushTimeStamp": "2020-05-04T20:03:48.964Z",
 			"output": {
 				"language": "en-US",
 				"region": "us-east-1"
@@ -71,16 +72,16 @@
 			"service": "Polly",
 			"convertType": "speechGenerator",
 			"providerMetadata": {
-				"s3TemplateURL": "https://s3.amazonaws.com/quick-notes-dev-20190826145900-deployment/amplify-cfn-templates/predictions/speechGeneratorc72b6c38-template.json",
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-quick-notes-devj-195844-deployment/amplify-cfn-templates/predictions/speechGeneratorc72b6c38-template.json",
 				"logicalId": "predictionsspeechGeneratorc72b6c38"
 			},
-			"lastPushTimeStamp": "2019-08-26T21:18:58.113Z",
+			"lastPushTimeStamp": "2020-05-04T20:03:48.964Z",
 			"output": {
-				"voice": "Justin",
+				"voice": "Kendra",
 				"language": "en-US",
 				"region": "us-east-1"
 			},
-			"lastPushDirHash": "hqy/FzjEbw/RDdLL3jD/+urSqro="
+			"lastPushDirHash": "Sx4VbAcgSXyyQY2H+MQ2pOUFxBY="
 		}
 	}
 }
